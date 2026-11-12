@@ -116,8 +116,6 @@ print(String(format: "Attendance: %.2f%%", attendance))
 print("\nResult: \(isPassed ? "PASS" : "FAIL")")
 print("Grade: \(grade)")
 
-print("====================================")
-
 if !hasPassedMarks {
     print("Reason: One or more subjects have marks below 35.")
 }
